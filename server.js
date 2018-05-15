@@ -22,7 +22,7 @@ app.use(bodyParser.json({ type: "application/vnd.api+json"}));
 //Point the server to a series of routes
 
 require(path.join(__dirname, "./app/routing/apiRoutes"))(app);
-require(path.join(__dirname, "./app/routing/htmlRoutes"))(app);
+require(path.join(__dirname, "./app/routing/htmlroutes"))(app);
 
 
 //start the server to listen to our port
